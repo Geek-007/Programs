@@ -26,6 +26,6 @@ doubanfm:利用豆瓣的API获取豆瓣电台的收藏歌曲，并在命令行�
 
 并发式爬虫：一个简单的并发式爬虫，爬取安居客网站上北京地区的房价
 
-distrometer: calculate the rain distrometer
+distrometer: calculate the rain distrometer and VD relation
 
 Raphaelblog: see readme in it
