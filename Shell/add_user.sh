@@ -9,7 +9,8 @@ do
 		scp hn:/etc/passwd  n$i:/etc
 		scp hn:/etc/shadow  n$i:/etc
 		scp hn:/etc/group  n$i:/etc
-		cp -pr /root/.ssh   /home/$USER/echo "n$i $USER"  >> /home/$USER/.rhosts
+		cp -pr /root/.ssh   /home/$USER/
+		echo "n$i $USER"  >> /home/$USER/.rhosts
 		chown $USER.$USER  /home/$USER/  -R
 	done
 done
