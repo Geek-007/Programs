@@ -2,6 +2,8 @@
 
 AMS_LaTeX_Package_v4.3.2: The Latex template of the AMS journals
 
+Copernicus_LaTeX_Package: The Latex template of the EGU journals
+
 PPT_template: A nice template for PPT using Beamer
 
 CESS_Homework_template: A simple homework template when I doing homework of courses at CESS Tsinghua
