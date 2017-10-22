@@ -1,0 +1,12 @@
+!MS$FREEFORM
+! Microsoft Developer Studio generated include file.
+! Used by downbrust.rc
+!
+      integer, parameter :: IDD_ABOUTBOX                    = 100
+      integer, parameter :: IDR_MAINFRAME                   = 128
+      integer, parameter :: IDR_DOWNBRTYPE                  = 129
+      integer, parameter :: IDM_SHOWREF                     = 32772
+      integer, parameter :: IDM_SHOWVEL                     = 32773
+      integer, parameter :: IDM_SHOWPK                      = 32774
+      integer, parameter :: IDM_chazhi                      = 32775
+      integer, parameter :: IDM_SHIBIEFIRE                  = 32776

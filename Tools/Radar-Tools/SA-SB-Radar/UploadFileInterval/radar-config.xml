@@ -1,0 +1,16 @@
+<app>
+	<uploadurl>http://radaronline.sinaapp.com/service/upload-radar-datapng.php</uploadurl>
+	<proxy>172.18.172.251:80</proxy>
+	<pngoutdir>pngout</pngoutdir>
+	<scanstations>
+		<count>1</count>
+		<station>sanmenxia</station>
+		<station>luoyang</station>
+	</scanstations>
+	<lasttime>
+		<sanmenxia>1404722709</sanmenxia>
+	</lasttime>
+	<path>
+		<sanmenxia>dirtest/Z_RADR_I_*</sanmenxia>
+	</path>
+</app>

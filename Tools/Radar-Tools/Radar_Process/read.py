@@ -1,0 +1,26 @@
+from radar_tool import *
+radar=universal_radar_processor()
+#for ii in range(1,12):
+#	EA,AA,RR,DBZ=radar.sa_sb_radar_read_spectral_width('./test.bin',ii)
+#	nx,ny,nz=radar.sph2cart(EA,AA,RR)
+##DBZ=radar.maskout(DBZ,0.01)
+##DBZ=radar.adaptive_barnes_interpolation(DBZ,EA,AA,RR,2)
+#	radar.fast_draw(DBZ,nx,ny,"./mask1997_sw"+str(ii)+".png",500)
+EA,AA,RR,DBZ=radar.sa_sb_radar_read_vel('./test.bin',5)
+nx,ny,nz=radar.sph2cart(EA,AA,RR)
+DBZ=radar.eliminate_isolated_point(DBZ)
+DBZ=radar.adaptive_barnes_interpolation(DBZ,EA,AA,RR,2)
+DBZ=radar.n_points_filter_m_times(DBZ,3,3)
+radar.fast_draw(DBZ,nx,ny,"./mask1997_sw5.png",500)
+
+#EA,AA,RR,DBZ=sa_sb_radar_read('./test.bin',5)
+#nx,ny,nz=sph2cart(EA,AA,RR)
+#DBZ=set_negative_nonprecipitation_echo_zero(DBZ,12)
+#DBZ=eliminate_isolated_point(DBZ)
+#DBZ=adaptive_barnes_interpolation(DBZ,EA,AA,RR,2)
+#DBZ=n_points_filter_m_times(DBZ,3,3)
+#DBZ=super_obs(DBZ,5,5,200)
+#fast_draw(DBZ,nx,ny,"./mask1997.png",500)
+##Guangzhou radar location: 113.3550E, 23.0039N
+#DBZ=maskout(DBZ,5)
+#draw_radar_on_the_map(DBZ,nx,ny,23.0039,113.3550,"./mask1997_map.png",500)

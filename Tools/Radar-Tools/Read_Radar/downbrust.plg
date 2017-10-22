@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: downbrust - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/downbrust.res" /d "NDEBUG" /d "_AFXDLL" "E:\代码\火灾识别\新建文件夹 (2)\downbrust.rc"" 
+Creating temporary file "C:\Users\LH\AppData\Local\Temp\RSPAD39.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/downbrust.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\代码\火灾识别\新建文件夹 (2)\downbrust.cpp"
+"E:\代码\火灾识别\新建文件夹 (2)\downbrustDoc.cpp"
+"E:\代码\火灾识别\新建文件夹 (2)\downbrustView.cpp"
+"E:\代码\火灾识别\新建文件夹 (2)\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\Users\LH\AppData\Local\Temp\RSPAD39.tmp" 
+Creating temporary file "C:\Users\LH\AppData\Local\Temp\RSPAD3A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/downbrust.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\代码\火灾识别\新建文件夹 (2)\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\LH\AppData\Local\Temp\RSPAD3A.tmp" 
+Creating temporary file "C:\Users\LH\AppData\Local\Temp\RSPAD3B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/downbrust.pdb" /machine:I386 /out:"Release/downbrust.exe" 
+".\Release\downbrust.obj"
+".\Release\downbrustDoc.obj"
+".\Release\downbrustView.obj"
+".\Release\MainFrm.obj"
+".\Release\StdAfx.obj"
+".\Release\downbrust.res"
+]
+Creating command line "link.exe @C:\Users\LH\AppData\Local\Temp\RSPAD3B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+downbrust.cpp
+downbrustDoc.cpp
+downbrustView.cpp
+E:\代码\火灾识别\新建文件夹 (2)\downbrustView.cpp(131) : warning C4101: 'ColorNum3' : unreferenced local variable
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+downbrust.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: downbrust - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/downbrust.res" /d "_DEBUG" /d "_AFXDLL" "E:\代码\火灾识别\新建文件夹 (2)\downbrust.rc"" 
+Creating temporary file "C:\Users\LH\AppData\Local\Temp\RSPB335.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/downbrust.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\代码\火灾识别\新建文件夹 (2)\downbrust.cpp"
+"E:\代码\火灾识别\新建文件夹 (2)\downbrustDoc.cpp"
+"E:\代码\火灾识别\新建文件夹 (2)\downbrustView.cpp"
+"E:\代码\火灾识别\新建文件夹 (2)\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\Users\LH\AppData\Local\Temp\RSPB335.tmp" 
+Creating temporary file "C:\Users\LH\AppData\Local\Temp\RSPB336.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/downbrust.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\代码\火灾识别\新建文件夹 (2)\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\LH\AppData\Local\Temp\RSPB336.tmp" 
+Creating temporary file "C:\Users\LH\AppData\Local\Temp\RSPB337.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/downbrust.pdb" /debug /machine:I386 /out:"Debug/downbrust.exe" /pdbtype:sept 
+".\Debug\downbrust.obj"
+".\Debug\downbrustDoc.obj"
+".\Debug\downbrustView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\downbrust.res"
+]
+Creating command line "link.exe @C:\Users\LH\AppData\Local\Temp\RSPB337.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+downbrust.cpp
+downbrustDoc.cpp
+downbrustView.cpp
+E:\代码\火灾识别\新建文件夹 (2)\downbrustView.cpp(131) : warning C4101: 'ColorNum3' : unreferenced local variable
+MainFrm.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/downbrust.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\downbrust.sbr" ".\Debug\downbrustDoc.sbr" ".\Debug\downbrustView.sbr" ".\Debug\MainFrm.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+downbrust.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
