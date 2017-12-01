@@ -17,3 +17,5 @@ WRF模式运行：用shell脚本实现WRF自动运行，学习shell脚本时的�
 运行WRFDA-4DVAR：运行WRFDA中4DVAR的脚本，每个过程分开便于调试
 
 add_user：批量新增用户
+
+l2tp.sh: 自动配置l2tp的VPN
